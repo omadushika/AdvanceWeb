@@ -1,0 +1,33 @@
+{
+    "cards":[
+        {
+            "id":"1",
+            "name": "Bangkok",
+            "imagePath":"https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg",
+            "btn": "Book Now",
+            "isAvaible": true
+        },
+        {
+            "id":"2",
+            "name": "Milano",
+            "imagePath":"https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg",
+            "btn": "Book Now",
+            "isAvaible": true
+        },
+        {
+            "id":"3",
+            "name": "Colombo",
+            "imagePath":"https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg",
+            "btn": "Book Now",
+            "isAvaible": true
+        },
+        {
+            "id":"4",
+            "name": "Paris",
+            "imagePath":"https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg",
+            "btn": "Book Now",
+            "isAvaible": true
+        }
+    ]
+
+}

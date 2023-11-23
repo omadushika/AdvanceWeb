@@ -1,0 +1,82 @@
+.hearder {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: hsl(0, 0%, 93%);
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+.hearder .logo {
+  color: hsl(201, 33%, 16%);
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.hearder .logo .icon {
+  font-size: 25px;
+  color: hsl(199, 100%, 33%);
+  transform: translateY(5px);
+}
+@media screen and (max-width: 768px) {
+  .hearder .navBar {
+    position: absolute;
+    background: hsl(0, 0%, 93%);
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: -500rem;
+    left: 50%;
+    padding: 1rem;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.5s ease-in-out;
+  }
+  .hearder .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .hearder .navBar .navLists .navItem {
+    padding: 0.5rem 0;
+  }
+  .hearder .navBar .navLists .navItem .navLink {
+    color: hsl(240, 4%, 36%);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .hearder .navBar .navLists .navItem .navLink:hover {
+    color: hsl(199, 100%, 33%);
+  }
+  .hearder .navBar .navLists .btn {
+    margin-top: 1rem;
+  }
+  .hearder .navBar .navLists .btn a {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+  }
+  .hearder .navBar .closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: hsl(199, 100%, 33%);
+  }
+  .hearder .navBar .closeNavbar:hover {
+    color: hsl(187, 87%, 30%);
+  }
+  .hearder .activeNavbar {
+    top: 7rem;
+  }
+}
+.hearder .toggleNavbar .icon {
+  font-size: 25px;
+  color: hsl(199, 100%, 33%);
+}
+.hearder .toggleNavbar .icon:hover.icon {
+  color: hsl(187, 87%, 30%);
+}/*# sourceMappingURL=Navbar.css.map */
